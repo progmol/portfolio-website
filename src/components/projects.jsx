@@ -13,10 +13,10 @@ function Projects() {
             <div className="projects">
 
                 <div className="proj-name">
-                    <div className="proj-img"><a href="#" target='_blank'><img src={portfolio} alt="portfolio-img" /></a></div>
+                    <div className="proj-img"><a href="https://codeczar00.vercel.app/" target='_blank'><img src={portfolio} alt="portfolio-img" /></a></div>
                     <div className='txt-cont'>
                         <div className="proj-title">Portfolio Website</div>
-                        <div className="github-link"><a href="#" target='_blank'>Visit GitHub Repo 🔗</a></div>
+                        <div className="github-link"><a href="https://github.com/codeczar00/portfolio-website" target='_blank'>Visit GitHub Repo 🔗</a></div>
                     </div>
                     <div className="proj-desc">
                         Designed and Developed responsive personal portfolio website using React and CSS.
