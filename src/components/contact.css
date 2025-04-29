@@ -1,0 +1,27 @@
+.cntct-title {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 60px;
+}
+
+.platform {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.plat-name {
+    font-size: 35px;
+}
+
+.plat-pic {
+    border-radius: 15px;
+}
+
+@media (max-width: 767px) {
+    .cntct-title {
+        font-size: 1.8rem;
+    }
+}

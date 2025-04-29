@@ -1,0 +1,114 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 30px;
+}
+
+.text-container {
+    margin-left: 20px;
+}
+
+.text-container .heading {
+    font-size: 60px;
+}
+
+.span {
+    font-size: 60px;
+    color: rgb(224, 172, 0);
+    background: -webkit-radial-gradient(#ffc505, #807d01);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-container .desc {
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.text-container .desc2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-container .desc2 span {
+    background: -webkit-radial-gradient(#ffc505, #807d01);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profilepic {
+    border: 2px solid rgb(224, 172, 0);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px 20px;
+    box-shadow: -20px 0px 100px rgb(224, 172, 0, 0.50);
+}
+
+
+@media (max-width: 767px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0.1rem;
+        position: relative;
+    }
+
+    .profilepic {
+        max-width: 250px; 
+        max-height: 250px; 
+        transform: translateX(0.5rem);
+    }
+
+    #img {
+        margin-bottom: 1rem;
+    }
+
+    .text-container .heading, .heading .span {
+        font-size: 1.8rem;
+        font-weight: 800;
+        line-height: 100%;
+    }
+
+    .text-container .desc2 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .span {
+        font-size: 60px;
+        color: rgb(224, 172, 0);
+        background: -webkit-radial-gradient(#ffc505, #807d01);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text-container {
+        max-width: 100%;
+    }
+
+    .text-container .desc {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 120%;
+        margin-top: 30px;
+    }
+
+    .profilepic {
+        border: 5px solid rgb(145, 135, 2);
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin-top: 40px;
+    }
+}
