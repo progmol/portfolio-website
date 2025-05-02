@@ -11,6 +11,7 @@
 
 .text-container .heading {
     font-size: 60px;
+    color: white;
 }
 
 .span {
@@ -21,6 +22,7 @@
 .text-container .desc {
     font-size: 40px;
     margin-top: 15px;
+    color: white;
 }
 
 .text-container .desc2 {

@@ -20,7 +20,9 @@ nav ul {
     text-align: center;
 }
 
-
+.nav ul li a:hover {
+    color: white;
+}
 
 
 nav button {

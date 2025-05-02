@@ -1,5 +1,6 @@
 .projects {
     display: grid;
+    margin: 0.2rem 3rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
@@ -8,11 +9,12 @@
     text-align: center;
     margin: 3rem 2rem;
     margin-bottom: 2rem;
+    color: white;
 }
 
 .proj-name {
     max-width: 25rem;
-    box-shadow: 0 10px 100px rgba(224, 172, 0, 0.25);
+    box-shadow: 0px 0px 10px 5px rgba(224, 172, 0, 0.25);
     padding: 20px 40px;
     margin: 0.5rem 0.5rem;
     border-radius: 20px;
@@ -24,7 +26,7 @@
 
 .proj-name:hover {
     transform: scale(1.02);
-    box-shadow: 0 20px 100px rgba(255, 200, 0, 0.4);
+    box-shadow: 0 20px 50px rgba(255, 200, 0, 0.4);
 }
 
 .proj-img img {
@@ -43,6 +45,7 @@
 .proj-name .github-link a {
     font-weight: normal;
     font-size: 15px;
+    
 }
 
 .proj-desc {
