@@ -93,6 +93,10 @@
         gap: 0.4rem;
     }
 
+    .pics img {
+        max-width: 40px;
+    }
+
     #tools>div {
         margin-right: 10px
     }

@@ -10,9 +10,9 @@ function Contact() {
             <h1 id='contact' className='cntct-title'>Contact Me</h1>
             <div className="platform">
                 <div><a target='_blank' href="https://www.linkedin.com/in/codeczar00/">
-                    <img className='plat-pic' width="50px" src={linkedin} alt="linkedin" /></a></div>
+                    <img className='plat-pic' width="45px" src={linkedin} alt="linkedin" /></a></div>
                 <div><a target='_blank' href="https://github.com/codeczar00">
-                    <img className='plat-pic' width="65px" src={github} alt="github" /></a></div>
+                    <img className='plat-pic' width="55px" src={github} alt="github" /></a></div>
             </div>
         </>
     )

@@ -15,11 +15,7 @@
 
 .span {
     font-size: 60px;
-    color: rgb(224, 172, 0);
-    background: -webkit-radial-gradient(#ffc505, #807d01);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: gold;
 }
 
 .text-container .desc {
@@ -30,15 +26,6 @@
 .text-container .desc2 {
     font-size: 20px;
     font-weight: 400;
-}
-
-.text-container .desc2 span {
-    background: -webkit-radial-gradient(#ffc505, #807d01);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .profilepic {

@@ -20,12 +20,7 @@ nav ul {
     text-align: center;
 }
 
-nav ul li:hover a {
-    background: -webkit-radial-gradient(#ffc505, #807d01);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 
 nav button {

@@ -18,10 +18,14 @@
 
 .plat-pic {
     border-radius: 15px;
+    max-width: 60px;
 }
 
 @media (max-width: 767px) {
     .cntct-title {
         font-size: 1.8rem;
+    }
+    .plat-pic {
+        max-width: 40px;
     }
 }

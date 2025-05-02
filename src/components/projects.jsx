@@ -35,7 +35,7 @@ function Projects() {
                 </div>
 
                 <div className="proj-name">
-                    <div className="proj-img"><a href="#" target='_blank'><img src={weather} alt="weather-logo" /></a></div>
+                    <div className="proj-img"><a target='_blank'><img src={weather} alt="weather-logo" /></a></div>
                     <div className='txt-cont'>
                         <div className="proj-title">Weather Update App</div>
                         <div className="github-link"><a href="https://github.com/codeczar00/weather-update-app" target='_blank'>Visit GitHub Repo 🔗</a></div>
@@ -45,7 +45,7 @@ function Projects() {
                 </div>
 
                 <div className="proj-name">
-                    <div id='todolist' className="proj-img"><a href="#" target='_blank'><img src={todolist} alt="todolist-logo" /></a></div>
+                    <div id='todolist' className="proj-img"><a target='_blank'><img src={todolist} alt="todolist-logo" /></a></div>
                     <div className='txt-cont'>
                         <div className="proj-title">To Do List</div>
                         <div className="github-link"><a href="https://github.com/codeczar00/to-do-list" target='_blank'>Visit GitHub Repo 🔗</a></div>
@@ -55,7 +55,7 @@ function Projects() {
                 </div>
 
                 <div className="proj-name">
-                    <div id='todolist' className="proj-img"><a href="#" target='_blank'><img src={askus} alt="todolist-logo" /></a></div>
+                    <div id='todolist' className="proj-img"><a href="https://ask-us-solutions.vercel.app/" target='_blank'><img src={askus} alt="todolist-logo" /></a></div>
                     <div className='txt-cont'>
                         <div className="proj-title">AskUs Solutions</div>
                         <div className="github-link"><a href="https://github.com/codeczar00/AskUs-Solutions" target='_blank'>Visit GitHub Repo 🔗</a></div>
