@@ -14,10 +14,10 @@ function Experience() {
                         <div className="duration">Mar 2025 — 2025</div>
                     </div>
                     <div className="description">
-                        <div>🟡 Built responsive and structured UIs using HTML, CSS, and JavaScript.</div>
-                        <div>🟡 Learned and implemented React to create dynamic, component-based frontend applications.</div>
-                        <div>🟡 Developed backend functionality using Django, including user authentication and database integration.</div>
-                        <div>🟡 Used Git for version control and collaborated on code using Git-based workflows.</div>
+                        <div>Built responsive and structured UIs using HTML, CSS, and JavaScript.</div>
+                        <div>Learned and implemented React to create dynamic, component-based frontend applications.</div>
+                        <div>Developed backend functionality using Django, including user authentication and database integration.</div>
+                        <div>Used Git for version control and collaborated on code using Git-based workflows.</div>
                     </div>
 
                 </div>

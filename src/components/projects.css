@@ -54,6 +54,13 @@
     font-weight: normal;
 }
 
+.proj-skills {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0.5rem;
+}
+
 @media (max-width: 767px) {
 
     .projects-title {
@@ -62,6 +69,7 @@
 
     .projects {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0.1rem 0rem;
     }
 
     .proj-title {
@@ -71,11 +79,16 @@
     .proj-name {
         margin: 0.3rem 1rem;
         padding: 20px;
+        min-width: 10rem;
     }
 
     .proj-name .github-link a {
         font-size: 0.6rem;
         font-weight: normal;
+    }
+
+    .proj-skills {
+        font-size: 0.6rem;
     }
 
     .proj-desc {
