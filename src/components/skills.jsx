@@ -9,7 +9,7 @@ import github from '../assets/github-logo.png'
 import django from '../assets/django-logo.png'
 import tailwind from '../assets/tailwind-logo.png'
 import cpp from '../assets/cpp-logo.png'
-
+import docker from '../assets/docker-logo.png'
 import postgre from '../assets/postgre.png'
 import mongo from '../assets/mongodb.png'
 
@@ -56,6 +56,7 @@ function Skills() {
                         <div className="pics">
                             <div data-tooltip="Git" className="git"><img width="60px" src={git} alt="git" /></div>
                             <div data-tooltip="GitHub" className="github"><img width="60px" src={github} alt="github" /></div>
+                            <div data-tooltip="Docker" className="docker"><img width="60px" src={docker} alt="docker" /></div>
                         </div>
                     </div>
 
