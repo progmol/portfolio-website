@@ -9,7 +9,7 @@ import github from '../assets/github-logo.png'
 import django from '../assets/django-logo.png'
 import tailwind from '../assets/tailwind-logo.png'
 import cpp from '../assets/cpp-logo.png'
-import docker from '../assets/docker.png'
+import docker from '../assets/docker-logo.png'
 import postgre from '../assets/postgre.png'
 import mongo from '../assets/mongodb.png'
 
