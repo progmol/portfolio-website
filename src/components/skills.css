@@ -79,6 +79,10 @@
     margin-right: 215px
 }
 
+#db-txt {
+    width: 280px;
+}
+
 
 @media (max-width: 922px) {
     .skills-heading {
@@ -91,11 +95,16 @@
 
     .attribute {
         display: block;
+        max-width: 80vw;
     }
 
     .pics {
         margin-top: 10px;
         gap: 0.4rem;
+    }
+
+    .mongo img {
+        min-width: 50px;
     }
 
     .pics img {

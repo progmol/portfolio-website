@@ -9,6 +9,9 @@ import github from '../assets/github-logo.png'
 import django from '../assets/django-logo.png'
 import tailwind from '../assets/tailwind-logo.png'
 import cpp from '../assets/cpp-logo.png'
+import docker from '../assets/docker.png'
+import postgre from '../assets/postgre.png'
+import mongo from '../assets/mongodb.png'
 
 function Skills() {
 
@@ -41,9 +44,10 @@ function Skills() {
                     </div>
 
                     <div className="attribute">
-                        <div className="att-text">Databases</div>
+                        <div id='db-txt' className="att-text">Databases</div>
                         <div className="pics">
-
+                            <div data-tooltip="PostgreSQL" className="postgre"><img width="50px" src={postgre} alt="postgre" /></div>
+                            <div data-tooltip="MongoDB" className="mongo"><img width="70px" src={mongo} alt="mongo" /></div>
                         </div>
                     </div>
 
@@ -52,6 +56,7 @@ function Skills() {
                         <div className="pics">
                             <div data-tooltip="Git" className="git"><img width="60px" src={git} alt="git" /></div>
                             <div data-tooltip="GitHub" className="github"><img width="60px" src={github} alt="github" /></div>
+                            <div data-tooltip="Docker" className="docker"><img width="60px" src={docker} alt="docker" /></div>
                         </div>
                     </div>
 
