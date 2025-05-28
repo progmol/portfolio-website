@@ -1,18 +1,18 @@
 import streamlit from './assets/streamlit.png'
-import gptpic from './assets/gpt-clone.jpg'
+import gptpic from './assets/chatgpt.png'
 import portfolio from './assets/portfolio-pic.jpg'
-import todolist from './assets/todolist.jpg'
-import weather from './assets/weather.jpg'
 import askus from './assets/askus.jpg'
+import shalimar from './assets/shalimar.png'
 
 const projectData = [
+
   {
-    Name: 'Portfolio Website',
-    source: portfolio,
-    picLink: 'https://codeczar00.vercel.app/',
-    github: 'https://github.com/codeczar00/portfolio-website',
-    description: 'Designed and Developed responsive personal portfolio website using React and CSS.',
-    skills: ['React', 'CSS']
+    Name: 'Shalimar Optical',
+    source: shalimar,  
+    picLink: 'https://shalimar-optical.vercel.app/',
+    github: 'https://github.com/codeczar00/shalimar-optical',
+    description: 'Full-Stack Ecommerce and Responsive application developed using React, Django & PostgreSQL',
+    skills: ['React', 'Djanog', 'PostgreSQL', 'REST API']
   },
   {
     Name: 'ChatGPT Clone',
@@ -23,18 +23,12 @@ const projectData = [
     skills: ['React', 'OpenAI API', 'CSS']
   },
   {
-    Name: 'Weather Update App',
-    source: weather,  
-    github: 'https://github.com/codeczar00/weather-update-app',
-    description: 'Developed a dynamic Weather Update app in React that fetches real-time weather data via API.',
-    skills: ['React', 'REST API']
-  },
-  {
-    Name: 'To Do List App',
-    source: todolist,  
-    github: 'https://github.com/codeczar00/to-do-list',
-    description: 'Built a feature-rich To-Do List application in Django with task creation, updating, and deletion functionalities.',
-    skills: ['Django', 'Python']
+    Name: 'Portfolio Website',
+    source: portfolio,
+    picLink: 'https://codeczar00.vercel.app/',
+    github: 'https://github.com/codeczar00/portfolio-website',
+    description: 'Designed and Developed responsive personal portfolio website using React and CSS.',
+    skills: ['React', 'CSS']
   },
   {
     Name: 'AskUs Solutions',
