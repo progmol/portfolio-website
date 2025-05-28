@@ -12,7 +12,7 @@ const projectData = [
     picLink: 'https://shalimar-optical.vercel.app/',
     github: 'https://github.com/codeczar00/shalimar-optical',
     description: 'Full-Stack Ecommerce and Responsive application developed using React, Django & PostgreSQL',
-    skills: ['React', 'Djanog', 'PostgreSQL', 'REST API']
+    skills: ['React', 'Django', 'PostgreSQL', 'REST API']
   },
   {
     Name: 'ChatGPT Clone',
