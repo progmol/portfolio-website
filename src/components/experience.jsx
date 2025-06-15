@@ -10,8 +10,8 @@ function Experience() {
                     <div className="comp-logo"><a target='_blank' href="https://www.askussolution.tech/"><img src={askuslogo} alt="askus-logo" /></a></div>
                     <div className="txt-cont">
                         <div className="heading">AskUs Solutions</div>
-                        <div className="role">Trainee Software Engineer</div>
-                        <div className="duration">Mar 2025 — 2025</div>
+                        <div className="role">Intern Software Engineer</div>
+                        <div className="duration">Mar 2025 — May 2025</div>
                     </div>
                     <div className="description">
                         <div>Built responsive and structured UIs using HTML, CSS, and JavaScript.</div>
