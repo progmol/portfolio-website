@@ -42,7 +42,7 @@ function Navbar(){
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projectsid">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="/Muhammad%20Asad.pdf" target='_blank'>Resume</a></li>
+                    <li><a href="/Resume.pdf" target='_blank'>Resume</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
                 <button ref={btnref} onClick={handleMenu}>{isopen ? '✖' : '☰'}</button>
