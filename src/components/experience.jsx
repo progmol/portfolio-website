@@ -11,7 +11,7 @@ function Experience() {
                     <div className="txt-cont">
                         <div className="heading">AskUs Solutions</div>
                         <div className="role">Intern Software Engineer</div>
-                        <div className="duration">Mar 2024 — May 2024</div>
+                        <div className="duration">Mar 2024 — June 2024</div>
                     </div>
                     <div className="description">
                         <div>Built responsive and structured UIs using HTML, CSS, and JavaScript.</div>
